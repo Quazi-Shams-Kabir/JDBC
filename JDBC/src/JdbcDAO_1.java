@@ -9,6 +9,7 @@ public class JdbcDAO_1 {
     }
 }
 
+//creating DAO for fetching details
 class StudentDAO {
     public Student getStudent(int rollno) { // return Student type
         Student s = new Student();
@@ -30,6 +31,7 @@ class StudentDAO {
     }
 }
 
+//creating Student class
 class Student {
 
     int rollno;
